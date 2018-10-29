@@ -8,7 +8,7 @@ We will also discuss the training strategies in order to allow deep nets to be p
 You should aim to understand: 
 - The general concepts of Artificial Neural Networks and Deep Learning. 
 - The strategies which are used to train the deep nets in a efficient way.
-- How CNNS and RNNs work and applications they are used for.
+- How CNNS and RNNs work and examples of applications.
 - The whole of activation functions in ANNs.
 
 We will use python notebooks exercises on different datasets to have a practical go on the discussed methods in practise. 
@@ -39,7 +39,12 @@ And here are some other links you may find interesting:
 
 **To get inspired:** 
 
-An interesting article from MIT Technology Review: [Deep Learning
-With massive amounts of computational power, machines can now recognize objects and translate speech in real time. Artificial intelligence is finally getting smart.](https://www.technologyreview.com/s/513696/deep-learning/)
+A couple of interesting articles on Deep Learning.
 
-It trigs one of the main aspects in deep learning: the real advantage of deep learning is more prominent when there are sufficient computational resources to train very large datasets on sophisticated architectures.
+The Lessons Learned from Applying Deep Learning for NLP Without Big Data: 
+https://towardsdatascience.com/lessons-learned-from-applying-deep-learning-for-nlp-without-big-data-d470db4f27bf
+
+Deep Learning: With massive amounts of computational power, machines can now recognize objects and translate speech in real time. Artificial intelligence is finally getting smart:
+ https://www.technologyreview.com/s/513696/deep-learning/
+
+One of the main aspects in deep learning: the real advantage of deep learning is more prominent when there are sufficient computational resources to train very large datasets on sophisticated architectures.
