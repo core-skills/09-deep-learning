@@ -1,4 +1,4 @@
-# Core skills program - week 7 - Machine Learning II - Deep Learning
+# CORE Skills Data Science Springboard - Day 9
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/core-skills/08-time-network-analysis.git/master)
 
