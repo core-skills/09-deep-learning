@@ -15,6 +15,13 @@ from sklearn.base import clone
 from sklearn.decomposition import PCA
 from sklearn.model_selection import learning_curve
 
+# Surpressing warnings
+import warnings
+warnings.simplefilter('ignore')
+import tensorflow.python.util.deprecation as deprecation
+deprecation._PRINT_DEPRECATION_WARNINGS = False
+# end of warnings
+
 import keras
 
 def create_sin_data(samples=5000, period=10):
@@ -160,8 +167,8 @@ def plot_loss_and_accuracy_am2(history):
     ax[0].legend(['Train set', 'Dev set'], loc='best')
     
     # Accuracy
-    ax[1].plot(range(1,len(history['acc'])+1),history['acc'])
-    ax[1].plot(range(1,len(history['val_acc'])+1),history['val_acc'])
+    ax[1].plot(range(1,len(history['accuracy'])+1),history['accuracy'])
+    ax[1].plot(range(1,len(history['val_accuracy'])+1),history['val_accuracy'])
     ax[1].set_title('Model Accuracy')
     ax[1].set_ylabel('Accuracy')
     ax[1].set_xlabel('Epoch')
