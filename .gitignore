@@ -1,0 +1,7 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Large datasets
+MiningProcess_Flotation_Plant_Database.csv
+./data/MiningProcess_Flotation_Plant_Database.csv
