@@ -1,0 +1,6 @@
+* The file MiningProcess_Flotation_Plant_Database.csv is 175.25 MB; this exceeds GitHub's file size limit of 100.00 MB
+
+* Please, download it from here: https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process/download
+and unzip quality-prediction-in-a-mining-process.zip**
+
+
